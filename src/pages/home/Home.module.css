@@ -23,7 +23,17 @@
 .text{
     font-size: 18px;
     line-height: 1.6s;
-    color: #C4C5C5
+    color: #C4C5C5;
+    margin-bottom: 30px;
+}
+
+
+.hasInvite{
+    color: #0077FF
+}
+
+.signInWrapper{
+    margin-top: 20px;
 }
 
 .cardWrapper{
