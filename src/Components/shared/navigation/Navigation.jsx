@@ -14,9 +14,7 @@ const Navigation = () => {
         alignItems: 'center'
     };
     
-    const logo = {
-        marginRight: '16px'
-    }
+  
     
 
     return (
