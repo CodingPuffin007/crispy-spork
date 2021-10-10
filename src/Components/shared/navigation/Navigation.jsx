@@ -21,7 +21,7 @@ const Navigation = () => {
         <div>
             <nav className={`${styles.navbar} container`}>
                 <Link to="/" style={brandStyle}>
-                    <span>✌️  Helium</span>
+                    <span>🛸 Helium</span>
                 </Link>
             </nav>
         </div>
