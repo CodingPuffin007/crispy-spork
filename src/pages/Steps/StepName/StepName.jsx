@@ -1,10 +1,11 @@
 import React from 'react'
 
-const StepName = () => {
+const StepName = ({onNext}) => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div>Name Page</div>
+            <button onClick={onNext}></button>
+        </>
     )
 }
 

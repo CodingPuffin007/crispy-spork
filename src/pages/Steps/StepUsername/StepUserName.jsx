@@ -1,10 +1,11 @@
 import React from 'react'
 
-const StepUserName = () => {
+const StepUserName = ({onNext}) => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div>Username Page</div>
+            <button onClick={onNext}></button>
+        </>
     )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
 
-const StepOtp = () => {
+const StepOtp = ({onNext}) => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div>OTP Page</div>
+            <button onClick={onNext}></button>
+        </>
     )
 }
 

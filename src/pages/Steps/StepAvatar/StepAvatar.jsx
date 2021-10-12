@@ -1,10 +1,11 @@
 import React from 'react'
 
-const StepAvatar = () => {
+const StepAvatar = ({onNext}) => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div>Avatar Page</div>
+            <button onClick={onNext}></button>
+        </>
     )
 }
 

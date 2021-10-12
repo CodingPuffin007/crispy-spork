@@ -1,10 +1,11 @@
 import React from 'react'
 
-const StepPhoneEmail = () => {
+const StepPhoneEmail = ({ onNext }) => {
     return (
-        <div>
-            Enter your otp to continue
-        </div>
+        <>
+            <div>PhoneEmail Page</div>
+            <button onClick={onNext}></button>
+        </>
     )
 }
 
