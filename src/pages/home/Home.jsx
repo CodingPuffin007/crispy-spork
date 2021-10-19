@@ -15,7 +15,7 @@ const Home = () => {
   const history = useHistory();
 
   function startRegister(){
-    history.push('/register')
+    history.push('/authenticate')
     console.log('button pressed....')
   }
 
@@ -29,11 +29,11 @@ const Home = () => {
           to make sure nothing breaks
         </p>
         <div>
-          <Button text="Get your username" onClick={startRegister}/>
+          <Button text="Get Started" onClick={startRegister}/>
         </div>
         <div className={styles.signInWrapper}>
           <span className={styles.hasInvite}>Have and invite text?</span>
-          <Link to="/login" style={signInLinkStyle}>
+          <Link to="/authenticate" style={signInLinkStyle}>
             Sign in
           </Link>
         </div>
